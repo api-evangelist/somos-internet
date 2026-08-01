@@ -1,8 +1,26 @@
 aid: somos-internet
 name: Somos Internet
-description: 'Somos Internet is a company surfaced as a portfolio company of ribbit-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: telecom. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Somos Internet is a Colombian residential and business fiber-optic internet
+  service provider (ISP) delivering high-speed home and enterprise broadband across
+  cities including Medellin, Bogota, Sabaneta, Rionegro, Caldas and Laureles. The
+  company is building AI-ready digital infrastructure for Latin America and raised
+  a $40M Series B backed by Ribbit Capital. It offers fiber internet plans, parental
+  controls, TV channel line-ups, and Wi-Fi routers to homes, businesses, and property
+  developers. No public developer API, SDK, MCP server, or other programmatic surface
+  has been identified for Somos Internet; it is a consumer and enterprise connectivity
+  provider rather than an API platform.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/api-evangelist/somos-internet/refs/heads/main/apis.yml
 url: https://raw.githubusercontent.com/api-evangelist/somos-internet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Telecom
+- Internet Service Provider
+- Fiber Optic
+- Broadband
+- Connectivity
+- Colombia
+- Latin America
 apis: []
+common:
+- type: DomainSecurity
+  url: security/somos-internet-domain-security.yml
+- type: Website
+  url: https://www.somosinternet.com
+- type: Blog
+  url: https://www.somosinternet.com/blog
+- type: Pricing
+  url: https://www.somosinternet.com/planes-medellin
+- type: PrivacyPolicy
+  url: https://www.somosinternet.com/privacidad
+- type: Support
+  url: https://www.somosinternet.com/faqs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
