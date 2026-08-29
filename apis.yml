@@ -9,6 +9,17 @@ description: 'Somos Internet is a Colombian residential and business fiber-optic
   developers. No public developer API, SDK, MCP server, or other programmatic surface
   has been identified for Somos Internet; it is a consumer and enterprise connectivity
   provider rather than an API platform.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
